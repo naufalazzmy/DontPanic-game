@@ -28,11 +28,13 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Virus" || collision.tag == "Bakteri") {
             playerHealth -= 2;
-            Debug.Log(playerHealth);
+            collision.gameObject.SetActive(false);
+           // Debug.Log(playerHealth);
         }
         if (collision.tag == "Food" ) {
             playerHealth += 5;
-            Debug.Log(playerHealth);
+            collision.gameObject.SetActive(false);
+            // Debug.Log(playerHealth);
         }
     }
 
