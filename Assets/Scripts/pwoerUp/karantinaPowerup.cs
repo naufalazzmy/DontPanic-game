@@ -19,8 +19,10 @@ public class karantinaPowerup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Bullet") {
-            Destroy(this.gameObject);
             bombarea.kaboom();
+            Destroy(this.gameObject);
+            Destroy(collision.gameObject);
+
             // hancurkan semua bakteri & virus
         }
         if(collision.tag == "Player") {

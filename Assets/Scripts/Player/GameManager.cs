@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public int highScore;
 
     private void Update() {
-       // Debug.Log(points);
+        Debug.Log(points);
     }
 
     private void Start() {

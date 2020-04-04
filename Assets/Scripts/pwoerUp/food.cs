@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class food : MonoBehaviour
 {
-    private int score = 10;
+    private int value = 10;
     public float speed = 3;
     public bool isMoving = false;
     public GameObject player;

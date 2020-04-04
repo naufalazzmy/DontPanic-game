@@ -5,7 +5,7 @@ using UnityEngine;
 public class Virus : MonoBehaviour, IPooledObject
 {
     public bombArea bombarea;
-    private int score = 10;
+    public int value = 10;
     public float speed = 3;
     public bool isMoving = false;
     public GameObject player;
@@ -25,7 +25,7 @@ public class Virus : MonoBehaviour, IPooledObject
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Bullet") {
             gm.addMultiplier();
-            gm.addPoint(score);
+            gm.addPoint(value);
             bombarea.decreaseItemCount();
             Destroy(collision.gameObject);
             this.gameObject.SetActive(false);

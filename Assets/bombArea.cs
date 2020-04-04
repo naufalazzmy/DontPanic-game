@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class bombArea : MonoBehaviour
 {
-
     public  static int itemCount;
-    public static bool isBomb = false;
-
-
+    public GameManager gm;
+    static int score = 0;
 
     private void Start() {
-        isBomb = false;
+        
     }
+
     private void Update() {
-        Debug.Log("jumlah musuh dalam layar : "+itemCount);
+       // Debug.Log("jumlah musuh dalam layar : "+itemCount);
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
@@ -29,16 +28,7 @@ public class bombArea : MonoBehaviour
     }
 
     // ini salah
-    private void OnTriggerStay2D(Collider2D collision) {
-        if (collision.tag == "Virus" || collision.tag == "Bakteri") {
-            if (isBomb) {
-                collision.gameObject.SetActive(false);
-                Debug.Log("BOMB!");
-                isBomb = false;
-            }
-               
-        }
-    }
+
 
     private void OnTriggerExit2D(Collider2D collision) {
         if (collision.tag == "Virus" || collision.tag == "Bakteri") {
@@ -56,17 +46,22 @@ public class bombArea : MonoBehaviour
     }
 
     public void kaboom() {
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Virus");
         foreach (GameObject enemy in enemies) {
             enemy.SetActive(false);
+            score = score + enemy.GetComponent<Virus>().value;
         }
         GameObject[] bak = GameObject.FindGameObjectsWithTag("Bakteri");
         foreach (GameObject enemy in bak) {
             enemy.SetActive(false);
+            score = score + enemy.GetComponent<Virus>().value;
         }
+        Debug.Log("Total bomb score " + score);
+        gm.addPoint(score);
         itemCount = 0;
-        //Debug.Log("jumlah virus: "+enemies.Length);
-        isBomb = true;
+        score = 0;
     }
+
 }
 
