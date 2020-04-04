@@ -11,7 +11,7 @@ public class poweUpSpawner : MonoBehaviour
 
     private Vector2 bound;
     void Start() {
-        InvokeRepeating("SpawnPowerUp", 0f, 5f);
+        InvokeRepeating("SpawnPowerUp", 0f, 10f);
     }
 
     public void SpawnPowerUp() {
@@ -20,17 +20,11 @@ public class poweUpSpawner : MonoBehaviour
             float yPos = Random.Range(-4.5f, 4.5f);
             bound = new Vector2(xPos, yPos);
             int rand = Random.Range(0, 100);
-            if(rand >= 1) {
-                int i = Random.Range(0, 100);
-                if(i >= 1) {
-                    // spawn bomb
-                    Instantiate(Karantina, bound, transform.rotation); 
-                    //objectPooler.Instance.SpawnFromPool("karantina", bound, Quaternion.identity);
-                } else {
-                    Instantiate(Olahraga, bound, transform.rotation);
-                    // spawn projectile
-
-                }
+            //Debug.Log(rand);
+            if(rand >= 70) {
+                Instantiate(Karantina, bound, transform.rotation);
+            } else {
+                return;
             }
         }
         

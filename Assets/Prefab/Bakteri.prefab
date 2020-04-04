@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 17291146475202734}
   - component: {fileID: 5077203525830007857}
   - component: {fileID: 743871177389402009}
+  - component: {fileID: 3466842083398784529}
   m_Layer: 0
   m_Name: Bakteri
   m_TagString: Bakteri
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 520384729721983276}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,9 +72,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0.9606118, b: 0, a: 1}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: -5267735571328975314, guid: b59b7687bf6415047a10a1106c084689,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -117,18 +119,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0013472363, y: -0.0013471842}
+  m_Offset: {x: -0.02, y: -0.05}
   m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13574998, y: 0.13036099}
+  m_Size: {x: 1.66, y: 1.37}
   m_EdgeRadius: 0
 --- !u!114 &743871177389402009
 MonoBehaviour:
@@ -144,7 +146,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bombarea: {fileID: 1826039301775404652, guid: 4d2448401527db648bce68c5aa1aa25d,
     type: 3}
+  value: 1
   speed: 3.5
   isMoving: 0
   player: {fileID: 7442784144916911655, guid: 5248fcd2ce3c73b48b15e6eb6492e99e, type: 3}
   gm: {fileID: 1838063154826906135, guid: 60862fbc2af8530488da29842d31bf62, type: 3}
+--- !u!95 &3466842083398784529
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520384729721983276}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2ebd9a3f72960c6409b744f27e42939c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

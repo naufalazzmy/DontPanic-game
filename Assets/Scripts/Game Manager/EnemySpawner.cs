@@ -6,18 +6,44 @@ public class EnemySpawner : MonoBehaviour
 {
     public GameManager gm;
 
+    //public float spawnRate;
+
     public Vector2 topBound;
     public Vector2 leftBound;
     public Vector2 rightBound;
     public Vector2 botBound;
 
+    public static float spawnInterval = 1f;
+    private float currentSpawnTime = 0f;
+
     objectPooler objectPooler;
     // Start is called before the first frame update
     void Start()
     {
+        //Debug.Log(spawnInterval);
         objectPooler = objectPooler.Instance;
         gm.spawnAllowed = true;
-        InvokeRepeating("SpawnEnemy", 0f, 1f);
+      //  InvokeRepeating("SpawnEnemy", 0f, spawnRate);
+    }
+
+    private void Update() {
+        Debug.Log(spawnInterval);
+        currentSpawnTime += Time.deltaTime;
+        if(currentSpawnTime >= spawnInterval) {
+            SpawnEnemy();
+            currentSpawnTime = 0;
+        }
+    }
+    public float getspawnInterval() {
+        return spawnInterval;
+    }
+
+    public void maxInterval() {
+        spawnInterval = 0.3f;
+    }
+    public void decreaseSpawnInterval() {
+        spawnInterval -= 0.1f;
+        Debug.Log("interval : " + spawnInterval);
     }
 
     void SpawnEnemy() {
@@ -86,6 +112,8 @@ public class EnemySpawner : MonoBehaviour
                 }
             }
         }
+
+        //yield return new WaitForSeconds(3);
     }
 
 

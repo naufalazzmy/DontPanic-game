@@ -19,6 +19,7 @@ public class Virus : MonoBehaviour, IPooledObject
     private void Update() {
         if (isMoving) {
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            transform.Rotate(0, 0, 300*Time.deltaTime);
         }
     }
 

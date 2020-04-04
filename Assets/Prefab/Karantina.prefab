@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7554793816190048061}
   - component: {fileID: 6369059313041074905}
   - component: {fileID: 1057997628943567610}
+  - component: {fileID: 8912846646939877461}
   m_Layer: 0
   m_Name: Karantina
   m_TagString: karantina
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5249198602286671900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 4.27, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -70,13 +71,14 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0.40135315, b: 0, a: 1}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 6068523354536302315, guid: 6f85bd5d3a66cec41a38fbdffd2bcab0,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -97,16 +99,16 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.0004709959, y: -0.000000078231096}
   m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
-    newSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13833389, y: 0.13739192}
+  m_Size: {x: 1.73, y: 1.73}
   m_EdgeRadius: 0
 --- !u!114 &1057997628943567610
 MonoBehaviour:
@@ -122,3 +124,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bombarea: {fileID: 1826039301775404652, guid: 4d2448401527db648bce68c5aa1aa25d,
     type: 3}
+--- !u!95 &8912846646939877461
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5249198602286671900}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd1e4567a08274f478386c7e15790736, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

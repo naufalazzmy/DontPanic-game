@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     public GameObject arrow;
     public GameObject circle;
 
-    public int playerHealth = 50;
+    public int playerHealth = 15;
 
     // calc distance
     private float currentDistance;
@@ -26,6 +26,20 @@ public class Player : MonoBehaviour
     private Vector3 shootDirection;
     private Vector3 push;
 
+    private bool draging = false;
+
+    private void Update() {
+        if (draging) {
+            transform.localScale = new Vector3(2.1f, 2.1f, 2.1f);
+        }
+        if (!draging) {
+            transform.localScale = new Vector3(2, 2, 2);
+        }
+    }
+
+    public int getHealth() {
+        return playerHealth;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Virus" || collision.tag == "Bakteri") {
@@ -36,13 +50,14 @@ public class Player : MonoBehaviour
            // Debug.Log(playerHealth);
         }
         if (collision.tag == "Food" ) {
-            playerHealth += 5;
+            playerHealth += 1;
             collision.gameObject.SetActive(false);
             // Debug.Log(playerHealth);
         }
     }
 
     private void OnMouseDrag() {
+        draging = true;
         Time.timeScale = 0.05f;
         
 
@@ -70,6 +85,7 @@ public class Player : MonoBehaviour
  
 
     private void OnMouseUp() {
+        draging = false;
         Time.timeScale = 1f;
         arrow.GetComponent<Renderer>().enabled = false;
         circle.GetComponent<Renderer>().enabled = false;

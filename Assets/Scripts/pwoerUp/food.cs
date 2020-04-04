@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class food : MonoBehaviour
+public class food : MonoBehaviour, IPooledObject
 {
-    private int value = 10;
+    //private int value = 2;
     public float speed = 3;
     public bool isMoving = false;
     public GameObject player;
@@ -18,12 +18,13 @@ public class food : MonoBehaviour
     private void Update() {
         if (isMoving) {
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            transform.Rotate(0, 0, 300 * Time.deltaTime);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "Bullet") {
-            Destroy(collision.gameObject);
+           // Destroy(collision.gameObject);
             this.gameObject.SetActive(false);
         }
     }

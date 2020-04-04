@@ -11,12 +11,23 @@ public class FoodSpawner : MonoBehaviour
 
     objectPooler objectPooler;
 
+    public static float spawnInterval = 1f;
+    private float currentSpawnTime = 0f;
+
     public GameManager gm;
     // Start is called before the first frame update
     void Start() {
         objectPooler = objectPooler.Instance;
         gm.spawnAllowed = true;
-        InvokeRepeating("SpawnFood", 0f, 3f);
+       // InvokeRepeating("SpawnFood", 0f, 3f);
+    }
+
+    private void Update() {
+        currentSpawnTime += Time.deltaTime;
+        if (currentSpawnTime >= spawnInterval) {
+            SpawnFood();
+            currentSpawnTime = 0;
+        }
     }
 
     void SpawnFood() {
