@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public bombArea bombarea;
+    public GameManager gm;
 
     public GameObject bulletPrefab;
     public Transform firePoint;
@@ -28,7 +30,9 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Virus" || collision.tag == "Bakteri") {
             playerHealth -= 2;
+            bombarea.decreaseItemCount();
             collision.gameObject.SetActive(false);
+            gm.resetMultiplier();
            // Debug.Log(playerHealth);
         }
         if (collision.tag == "Food" ) {

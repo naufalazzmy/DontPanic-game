@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class inCommer : MonoBehaviour, IPooledObject
+public class Virus : MonoBehaviour, IPooledObject
 {
-    public int score = 10;
+    public bombArea bombarea;
+    private int score = 10;
     public float speed = 3;
     public bool isMoving = false;
     public GameObject player;
@@ -23,7 +24,10 @@ public class inCommer : MonoBehaviour, IPooledObject
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Bullet") {
+            gm.addMultiplier();
             gm.addPoint(score);
+            bombarea.decreaseItemCount();
+            Destroy(collision.gameObject);
             this.gameObject.SetActive(false);
         }
     }

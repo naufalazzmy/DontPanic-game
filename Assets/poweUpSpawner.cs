@@ -22,7 +22,7 @@ public class poweUpSpawner : MonoBehaviour
             int rand = Random.Range(0, 100);
             if(rand >= 1) {
                 int i = Random.Range(0, 100);
-                if(i >= 65) {
+                if(i >= 1) {
                     // spawn bomb
                     Instantiate(Karantina, bound, transform.rotation); 
                     //objectPooler.Instance.SpawnFromPool("karantina", bound, Quaternion.identity);

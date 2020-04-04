@@ -9,6 +9,7 @@ TagManager:
   - Virus
   - Bullet
   - karantina
+  - PlayArea
   layers:
   - Default
   - TransparentFX

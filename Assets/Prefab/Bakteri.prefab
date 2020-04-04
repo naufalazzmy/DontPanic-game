@@ -142,8 +142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691a854b85759ee4089c8fe7d481b728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 10
+  bombarea: {fileID: 1826039301775404652, guid: 4d2448401527db648bce68c5aa1aa25d,
+    type: 3}
   speed: 3.5
   isMoving: 0
-  player: {fileID: 1927391594145989431, guid: 5248fcd2ce3c73b48b15e6eb6492e99e, type: 3}
+  player: {fileID: 7442784144916911655, guid: 5248fcd2ce3c73b48b15e6eb6492e99e, type: 3}
   gm: {fileID: 1838063154826906135, guid: 60862fbc2af8530488da29842d31bf62, type: 3}
