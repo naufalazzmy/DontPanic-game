@@ -52,11 +52,7 @@ public class bombArea : MonoBehaviour
             enemy.SetActive(false);
             score = score + enemy.GetComponent<Virus>().value;
         }
-        GameObject[] bak = GameObject.FindGameObjectsWithTag("Bakteri");
-        foreach (GameObject enemy in bak) {
-            enemy.SetActive(false);
-            score = score + enemy.GetComponent<Virus>().value;
-        }
+       
         //Debug.Log("Total bomb score " + score);
         gm.addPoint(score);
         itemCount = 0;

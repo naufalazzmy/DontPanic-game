@@ -144,6 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691a854b85759ee4089c8fe7d481b728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blastParticle: {fileID: 2573544532701231178, guid: ed2ee5db697d83b4fa5ea98f6281433b,
+    type: 3}
   bombarea: {fileID: 1826039301775404652, guid: 4d2448401527db648bce68c5aa1aa25d,
     type: 3}
   value: 1

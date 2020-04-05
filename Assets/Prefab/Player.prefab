@@ -111,6 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a93454aaabe294ba5b7c19dbe82c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerBlast: {fileID: 5199204810562496482, guid: ca064207f2afe0b458c602a2e5cc5b60,
+    type: 3}
   bombarea: {fileID: 1826039301775404652, guid: 4d2448401527db648bce68c5aa1aa25d,
     type: 3}
   gm: {fileID: 1838063154826906135, guid: 60862fbc2af8530488da29842d31bf62, type: 3}

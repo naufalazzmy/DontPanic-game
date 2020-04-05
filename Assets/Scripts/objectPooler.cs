@@ -33,19 +33,19 @@ public class objectPooler : MonoBehaviour
                 GameObject obj = Instantiate(pool.prefab);
 
                 // change color sprite
-                int z = Random.RandomRange(0, 5);
-                if(z == 0) {
-                    obj.GetComponent<SpriteRenderer>().color = new Color(0.42f, 1, 0.38f);  // green
-                }else if(z == 1) {
-                    obj.GetComponent<SpriteRenderer>().color = new Color(0.92f, 0.49f, 0.991f); // purple
-                } else if (z == 2) {
-                    obj.GetComponent<SpriteRenderer>().color = new Color(0.58f, 0.62f, 1); // blue
-                } else if (z == 3) {
-                    obj.GetComponent<SpriteRenderer>().color = new Color(1, 0.97f, 0.47f); // yellow
-                } else {
-                    obj.GetComponent<SpriteRenderer>().color = Color.white; 
-                }
-                z = 0;
+                //int z = Random.Range(0, 5);
+                //if(z == 0) {
+                //    obj.GetComponent<SpriteRenderer>().color = new Color(0.42f, 1, 0.38f);  // green
+                //}else if(z == 1) {
+                //    obj.GetComponent<SpriteRenderer>().color = new Color(0.92f, 0.49f, 0.991f); // purple
+                //} else if (z == 2) {
+                //    obj.GetComponent<SpriteRenderer>().color = new Color(0.58f, 0.62f, 1); // blue
+                //} else if (z == 3) {
+                //    obj.GetComponent<SpriteRenderer>().color = new Color(1, 0.97f, 0.47f); // yellow
+                //} else {
+                //    obj.GetComponent<SpriteRenderer>().color = Color.white; 
+                //}
+                //z = 0;
 
                 obj.SetActive(false);
                 objectPool.Enqueue(obj);

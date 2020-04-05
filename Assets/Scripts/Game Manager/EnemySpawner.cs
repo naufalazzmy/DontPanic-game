@@ -58,7 +58,7 @@ public class EnemySpawner : MonoBehaviour
                 // spawn enemy with probability 
                 int i = Random.Range(0, 100);
                 if(i >= 40) {
-                    objectPooler.Instance.SpawnFromPool("Bakteri", topBound, Quaternion.identity);
+                    objectPooler.Instance.SpawnFromPool("Virus", topBound, Quaternion.identity);
                    // Debug.Log("Spawn bakteri on top");
                 } else {
                     objectPooler.Instance.SpawnFromPool("Virus", topBound, Quaternion.identity);
@@ -73,7 +73,7 @@ public class EnemySpawner : MonoBehaviour
                 leftBound = new Vector2(xPos, yPos);
                 int i = Random.Range(0, 100);
                 if (i >= 40) {
-                    objectPooler.Instance.SpawnFromPool("Bakteri", leftBound, Quaternion.identity);
+                    objectPooler.Instance.SpawnFromPool("Virus", leftBound, Quaternion.identity);
                    // Debug.Log("Spawn Bakteri on left");
                 } else {
                     objectPooler.Instance.SpawnFromPool("Virus", leftBound, Quaternion.identity);
@@ -89,7 +89,7 @@ public class EnemySpawner : MonoBehaviour
 
                 int i = Random.Range(0, 100);
                 if (i >= 40) {
-                    objectPooler.Instance.SpawnFromPool("Bakteri", rightBound, Quaternion.identity);
+                    objectPooler.Instance.SpawnFromPool("Virus", rightBound, Quaternion.identity);
                    // Debug.Log("Spawn bakteri on right");
                 } else {
                     objectPooler.Instance.SpawnFromPool("Virus", rightBound, Quaternion.identity);
@@ -104,7 +104,7 @@ public class EnemySpawner : MonoBehaviour
 
                 int i = Random.Range(0, 100);
                 if (i >= 40) {
-                    objectPooler.Instance.SpawnFromPool("Bakteri", botBound, Quaternion.identity);
+                    objectPooler.Instance.SpawnFromPool("Virus", botBound, Quaternion.identity);
                    // Debug.Log("Spawn bakteri on bot");
                 } else {
                     objectPooler.Instance.SpawnFromPool("Virus", botBound, Quaternion.identity);

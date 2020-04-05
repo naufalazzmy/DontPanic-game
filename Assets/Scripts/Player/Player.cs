@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Animator healthAnimator;
+    public Animator plushealthAnimator;
+
+    public GameObject playerBlast;
+    public GameObject playerHit;
+
     public bombArea bombarea;
     public GameManager gm;
 
@@ -35,6 +41,13 @@ public class Player : MonoBehaviour
         if (!draging) {
             transform.localScale = new Vector3(2, 2, 2);
         }
+        if(playerHealth <= 0) {
+            playerHealth = 0;
+           // gm.setGameOver();
+            gameObject.SetActive(false);
+            playerBlast.transform.position = transform.position;
+            Instantiate(playerBlast, transform.position, Quaternion.identity);
+        }
     }
 
     public int getHealth() {
@@ -42,18 +55,25 @@ public class Player : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        if(collision.tag == "Virus" || collision.tag == "Bakteri") {
+        if(collision.tag == "Virus") {
+            healthAnimator.SetTrigger("hit");
+            Instantiate(playerHit, collision.transform.position, Quaternion.identity);
             playerHealth -= 2;
+            if(playerHealth <= 0) {
+                gm.exiterTrue();
+            }
             bombarea.decreaseItemCount();
             collision.gameObject.SetActive(false);
             gm.resetMultiplier();
            // Debug.Log(playerHealth);
         }
         if (collision.tag == "Food" ) {
+            plushealthAnimator.SetTrigger("add");
             playerHealth += 1;
             collision.gameObject.SetActive(false);
             // Debug.Log(playerHealth);
         }
+        //Debug.Log(collision);
     }
 
     private void OnMouseDrag() {

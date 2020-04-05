@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Virus : MonoBehaviour, IPooledObject
 {
+    public GameObject blastParticle;
+
     public bombArea bombarea;
-    public int value = 10;
+    public int value = 2;
     public float speed = 3;
     public bool isMoving = false;
     public GameObject player;
@@ -29,7 +31,12 @@ public class Virus : MonoBehaviour, IPooledObject
             gm.addPoint(value);
             bombarea.decreaseItemCount();
             Destroy(collision.gameObject);
+
+            blastParticle.transform.position = transform.position;
+            Instantiate(blastParticle, transform.position , Quaternion.identity);
+
             this.gameObject.SetActive(false);
+
         }
     }
 
