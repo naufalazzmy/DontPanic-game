@@ -5,11 +5,14 @@ using UnityEngine;
 public class karantinaPowerup : MonoBehaviour
 {
 
+    public Animator flashScreen;
     public bombArea bombarea;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(matikan());
+        flashScreen = GameObject.Find("CamAnchor/FlashScreen").GetComponent<Animator>();
+        Debug.Log(flashScreen);
     }
 
     IEnumerator matikan() {
@@ -19,9 +22,12 @@ public class karantinaPowerup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag == "Bullet") {
+            
+            flashScreen.SetTrigger("Boom");
             bombarea.kaboom();
-            Destroy(this.gameObject);
             Destroy(collision.gameObject);
+            Destroy(this.gameObject);
+            
 
             // hancurkan semua bakteri & virus
         }

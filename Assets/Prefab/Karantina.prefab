@@ -122,6 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb9e2cb6386bf6146bb4553f478b2acd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flashScreen: {fileID: 6192745936662735041, guid: b1aa606ecf7541d4ab890553971dbb7e,
+    type: 3}
   bombarea: {fileID: 1826039301775404652, guid: 4d2448401527db648bce68c5aa1aa25d,
     type: 3}
 --- !u!95 &8912846646939877461

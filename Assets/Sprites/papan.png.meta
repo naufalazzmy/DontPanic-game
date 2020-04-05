@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 971674aa1aae5a545872261924b80cac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2323749398036944500
+    second: papan_0
+  - first:
+      213: -7301671295483221496
+    second: papan_1
+  - first:
+      213: 9042098486428631158
+    second: papan_2
+  - first:
+      213: 2063403969042055699
+    second: papan_3
+  - first:
+      213: -1814515008151058639
+    second: papan_4
+  - first:
+      213: 2218362878861018810
+    second: papan_5
+  - first:
+      213: -5280539974844145714
+    second: papan_6
+  - first:
+      213: 602222103278707935
+    second: papan_7
+  - first:
+      213: -3350270999891621425
+    second: papan_8
+  - first:
+      213: 4315173383891200096
+    second: papan_9
+  - first:
+      213: -2674072819496933624
+    second: papan_10
+  - first:
+      213: -993521653753080394
+    second: papan_11
+  - first:
+      213: 6567437121292810714
+    second: papan_12
+  - first:
+      213: 1166374446971792279
+    second: papan_13
+  - first:
+      213: -2227019301553801112
+    second: papan_14
+  - first:
+      213: 7707364966367789642
+    second: papan_15
+  - first:
+      213: 1756189956419025687
+    second: papan_16
+  - first:
+      213: 8565674663267528933
+    second: papan_17
+  - first:
+      213: 2978171648686642561
+    second: papan_18
+  - first:
+      213: -1476382928360593916
+    second: papan_19
+  - first:
+      213: 1914335522195887167
+    second: papan_20
+  - first:
+      213: 4687901401233451585
+    second: papan_21
+  - first:
+      213: 1641555669488590679
+    second: papan_22
+  - first:
+      213: -5926218010672513452
+    second: papan_23
+  - first:
+      213: 3678817141143701257
+    second: papan_24
+  - first:
+      213: 9137829650465896179
+    second: papan_25
+  - first:
+      213: 5003739863141127355
+    second: papan_26
+  - first:
+      213: 7446681277751124620
+    second: papan_27
+  - first:
+      213: -7114337454411997044
+    second: papan_28
+  - first:
+      213: -6198100993428838163
+    second: papan_29
+  - first:
+      213: -5448388613250298336
+    second: papan_30
+  - first:
+      213: 8918182223088168337
+    second: papan_31
+  - first:
+      213: -401751455710981954
+    second: papan_32
+  - first:
+      213: 335447241068082350
+    second: papan_33
+  - first:
+      213: -3634485439332486504
+    second: papan_34
+  - first:
+      213: -4310997777879144414
+    second: papan_35
+  - first:
+      213: 2952875038614873271
+    second: papan_36
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: papan_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1090
+        width: 2305
+        height: 3119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9a9900dcad58041a9a2aa1ffebed98
+      internalID: 2323749398036944500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_1
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 3884
+        width: 93
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4db6c218a6ba846b62071339812305
+      internalID: -7301671295483221496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_2
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 3884
+        width: 55
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f46d05dad99cb94293bf045b5f2739e
+      internalID: 9042098486428631158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_3
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 3879
+        width: 117
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fdc3b5faaf31149a9a8638f3a7ecf5
+      internalID: 2063403969042055699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_4
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 4102
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9a2d847566cef4a8016d4981036be2
+      internalID: -1814515008151058639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_5
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 3884
+        width: 118
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06da5cf2b5e40d04295c919297b27d1a
+      internalID: 2218362878861018810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_6
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 3879
+        width: 117
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be939156ce1c374d9aacc1f5d3db10f
+      internalID: -5280539974844145714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_7
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 3854
+        width: 119
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fd91d3a667ddd42bcf2f4a8eff1dd2
+      internalID: 602222103278707935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_8
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3879
+        width: 117
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11ac820884eeca4496c52a3a1c1a189
+      internalID: -3350270999891621425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_9
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 3879
+        width: 117
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e099d574f5b3efa4fb26c32ea4c6d457
+      internalID: 4315173383891200096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_10
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 3854
+        width: 119
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf9188f719dfdf4f9b54988ec3edf49
+      internalID: -2674072819496933624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_11
+      rect:
+        serializedVersion: 2
+        x: 3602
+        y: 3879
+        width: 117
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a515302e09902b498e1e5d83e43b832
+      internalID: -993521653753080394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_12
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 3884
+        width: 54
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05508e7850b9984d933c3988f97f586
+      internalID: 6567437121292810714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_13
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 3879
+        width: 117
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c711186e3ee2884ab1d56930c936813
+      internalID: 1166374446971792279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_14
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 2754
+        width: 525
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b601cb41743fea340b86e34ebc975879
+      internalID: -2227019301553801112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_15
+      rect:
+        serializedVersion: 2
+        x: 3765
+        y: 3277
+        width: 383
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7306043f95bf494e8e9a2cc42e1795d
+      internalID: 7707364966367789642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_16
+      rect:
+        serializedVersion: 2
+        x: 3823
+        y: 2877
+        width: 275
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5024a3e7a5d0d499c39c9b5a11da42
+      internalID: 1756189956419025687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_17
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 2340
+        width: 152
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703063c93f3c4144d89c6772ece7a0ad
+      internalID: 8565674663267528933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_18
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2342
+        width: 273
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e5bac2a111a4e43bd04cf5cff6650c
+      internalID: 2978171648686642561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_19
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 1800
+        width: 205
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ff56035b714e54186ea87faecf658f
+      internalID: -1476382928360593916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_20
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 2019
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0afb966fb3a9442a5f83057fb62b22
+      internalID: 1914335522195887167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_21
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 1796
+        width: 157
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef725d93ce5c7ba459e05132facc2f2b
+      internalID: 4687901401233451585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_22
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 1796
+        width: 142
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059b533ddbca7f24d8b890b9f2b99d5e
+      internalID: 1641555669488590679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_23
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 1800
+        width: 67
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359aeda67b782454380154c89bb77cab
+      internalID: -5926218010672513452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_24
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 1796
+        width: 146
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e9284ffae007a4ea2cd028a1e3ad2d
+      internalID: 3678817141143701257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_25
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 1252
+        width: 915
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7040a783ddcc6e4fb1c434076f8df4e
+      internalID: 9137829650465896179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_26
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 698
+        width: 160
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4148e10921bdd4eafa5696855c064d
+      internalID: 5003739863141127355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_27
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 698
+        width: 148
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fc732a3336afe44af63820739c97cc
+      internalID: 7446681277751124620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_28
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 921
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe62a92371242b547ab2c291f0408913
+      internalID: -7114337454411997044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_29
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 702
+        width: 100
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0946938d68645f459dbbb4b4afe9f52
+      internalID: -6198100993428838163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_30
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 785
+        width: 911
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0864bea89898da749a14622df618f0fa
+      internalID: -5448388613250298336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_31
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 702
+        width: 104
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9449c408934a9f49a7533d25b0d46b3
+      internalID: 8918182223088168337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_32
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 698
+        width: 150
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef452f2a0fd0f7b40b566f66a9bebc4d
+      internalID: -401751455710981954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_33
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 702
+        width: 68
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db1d95d37b89cf4eaec6269978ea6d7
+      internalID: 335447241068082350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_34
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 698
+        width: 141
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b5543ccf208ce439395fec2fae3437
+      internalID: -3634485439332486504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 56
+        width: 667
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d7bd67ade7e2f468959521a6af6429
+      internalID: -4310997777879144414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papan_36
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 35
+        width: 2284
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a986033e71e1b499ee130d88b9e892
+      internalID: 2952875038614873271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
